@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class cde
+{
+	Scanner s = new Scanner(System.in);
+	int c,d ;
+	public   void Getdata()
+	{
+		System.out.println("enter two values");
+		c = s.nextInt();
+		d = s.nextInt();
+	}
+}
+		class xyz extends cde
+		{
+	
+		public void large()
+		{
+			if (c>d)
+			{
+			
+				System.out.println("the largest number is"+c);
+			}
+			else {
+			
+				System.out.println("the largest number is"+d);
+			}
+		
+	}
+}
+public class Demo2 {
+
+	public static  void main (String[] args) 
+	{
+		// TODO Auto-generated method stub
+xyz obj = new xyz();
+obj.Getdata();
+obj.large();
+	}
+
+}
